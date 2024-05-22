@@ -1,0 +1,93 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Markyy Script - https://discord.com/invite/46GEWAudB8", "BloodTheme")
+
+local Tab = Window:NewTab("Murder Mystery 2")
+
+local Section = Tab:NewSection("Best Mm2 Aimbot!")
+
+Section:NewButton("Symphony Hub ( KEY )", "Credits To Symphony Hub!", function()
+local a,b,c,d=loadstring,request or http_request or(http and http.request)or(syn and syn.request),assert,"https://lhr.synteamenv.workers.dev/?page=script"c(a and b,"Your executor does not support.")a(b({Url=d,Method="POST",Headers={["Authorization"]="revamp patch 2024"}}).Body)()
+    print("Clicked")
+end)
+
+Section:NewButton("Nx | Crazy ( KEY )", "Credits To Nx | Crazy!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/script-by/Nx-Crazy/main/Silent-Aim-MM2"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Eclipse Hub", "Credits To Eclipse Hub!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pa1nx/MurderMystery2ScriptTESTING/main/TestFile"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Byte Hub", "Credits To Byte Hub!", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Murder-Mystery-2-ByteHub-10357"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Mm2 Auto Farm Coins ( WORK I THINK )", "...", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Murder-Mystery-2-AutoFarm-Coins_503"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Mm2 Best SetUPP", "Op?.Nah", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Murder-Mystery-2-MM-BEST-SETUPPP-13123"))()
+    print("Clicked")
+end)
+
+Section:NewButton("Mm2 Admin Panel", "Op?.Nah", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Murder-Mystery-2-Mm-Admin-panel-12900"))()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("Da Hood")
+
+local Section = Tab:NewSection("Best Da Hood Cam lock")
+
+Section:NewButton("Nx | Crazy", "Credits To Nx | Crazy!", function()
+getgenv().Silent = {
+    Settings = {
+        Enabled = true,
+        AimPart = "UpperTorso",
+        Prediction = 0.159748979134,
+        WallCheck = true,
+        Visualize = true,
+        AutoPrediction = false,
+    },
+    FOV = {
+        Enabled = true,
+        Size = 30,
+        Filled = false,
+        Thickness = 0.66,
+        Transparency = 0.9,
+        Color = Color3.fromRGB(255,0,0),
+    },
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/script-by/Nx-Crazy-Dev/main/Souce", true))()
+    print("Clicked")
+end)
+
+local Tab = Window:NewTab("FE Scripts")
+
+local Section = Tab:NewSection("FE SCRIPTS YOU MAY KNOW💀")
+
+Section:NewButton("FE Sadist Genocider Script", "Op?.Nah", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Sadist-Genocider-Script-12374"))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE Headless", "Not Working? Ok", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/FE-Headless-Script_1118"))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE Neko", "BRO CAUGHT IN 4K💀", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Neko-10858"))()
+    print("Clicked")
+end)
+
+Section:NewButton("FE Goner", "GOODY AH WORKING", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Goner-10857"))()
+    print("Clicked")
+end)
